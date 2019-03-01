@@ -7,6 +7,6 @@ http://wiki.apertium.org/wiki/Tools_for_TMX
 
 use:
 
-gzcat tmx.gz | ./tmx-extract-parallel.py -b <base filename> -s <src lang> -t <tgt lang> -c (optional - removes crlf in <seg>)
+gzcat tmx.gz | ./tmx-extract-parallel.py -b base_filename -s src_lang -t tgt_lang  -c (optional - removes crlf in <seg>)
 
 
